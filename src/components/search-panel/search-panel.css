@@ -1,0 +1,7 @@
+.search-panel {
+    margin-bottom: 20px;
+}
+
+.search-panel .search-field {
+    flex-grow: 1;
+}
