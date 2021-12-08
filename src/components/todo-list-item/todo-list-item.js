@@ -1,7 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import { removeTodoItem, markAsImportant } from "../../actions";
-import './todo-list-item.css';
+// import './todo-list-item.css';
+import './todo-list-item.less';
 
 const TodoListItem = ({ id, label, isCompleted, removeTodoItem, markAsImportant }) => {
     const style = isCompleted ?

@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import './search-panel.css';
+// import './search-panel.css';
+import './search-panel.less';
 import { searchTerm } from "../../actions";
 
 const SearchPanel = ({ searchTerm }) => {

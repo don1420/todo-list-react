@@ -5,7 +5,8 @@ import SearchPanel from "../search-panel";
 import FilterCondition from "../filter-condition";
 import TodoList from "../todo-list";
 import TodoForm from "../todo-form/todo-form";
-import './app.css';
+// import './app.css';
+import './app.less';
 
 const App = ({ todos, filterCondition }) => {
     return (

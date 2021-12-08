@@ -2,7 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import uuid from 'react-uuid';
 import { addTodoItem } from "../../actions";
-import './todo-form.css';
+// import './todo-form.css';
+import './todo-form.less';
 
 const TodoForm = ({ addTodoItem }) => {
     const addTodoItemHandler = (e) => {

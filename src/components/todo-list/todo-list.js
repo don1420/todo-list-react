@@ -8,7 +8,8 @@ import {
     FILTER_CONDITION_DONE,
     FILTER_CONDITION_IMPORTANT
 } from "../../constants";
-import './todo-list.css';
+// import './todo-list.css';
+import './todo-list.less';
 
 const TodoList = ({ todos, filterCondition, markAsDone }) => {
     const visibleTodos = getVisibleTodos(todos, filterCondition);
